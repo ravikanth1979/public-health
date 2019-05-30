@@ -50,7 +50,7 @@ spec:
             secretKeyRef:
               name: project-id
               key: project-id
-        - name: PUBLIC-HEALTH-DASHBOARD_DOMAIN
+        - name: PUBLIC_HELATH_DESHBOARD_DOMAIN
           valueFrom:
             secretKeyRef:
               name: domain
